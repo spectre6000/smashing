@@ -1,0 +1,296 @@
+#page {
+ padding: 0 .5em;
+ background-color: #fff; 
+}
+
+  #sidebar {
+    position: relative;
+    float: right;
+    width: 27.75em;
+    padding: 0 .5em 0 0;
+    background-color: #fff;
+  }
+
+    #sidebar-nav {
+      position: relative;
+      width: 100%;
+      height: 4.6em;
+      padding: 0 .5em;
+      background-color: #fff;
+    }
+
+      #sidebar-nav-text {
+        position: absolute;
+        height: 1em;
+        padding: 0 .5em;
+        margin-left: 1.5em;
+        background-color: #ddd;
+        bottom: 1em;
+        left: 0;
+        right: 0;
+      }
+
+    #sidebar-search {
+      padding: 0 .5em 0 1em;
+      width: 100%;
+      height: 2.5em;
+      margin-bottom: 2em;
+      background-color: #ddd;
+    }
+
+    .sidebar-ads {
+      width: 100%;
+      padding: 0 0 0 1.4em;
+      background-color: #fff; 
+    }
+
+      #ads-1 {
+        margin-top: 2em;
+      }
+
+      #sidebar-ad-header {
+        width: 100%;
+        height: 2.25em;
+        background-color: #eee;
+      }
+
+      .ad {
+        display: inline-block;
+        width: 12.5em;
+        height: 7.75em;
+        margin-bottom: 2em;
+        background-color: #ccc;
+      }
+
+      .odd {
+        margin-right: .5em;
+      }
+
+      .big {
+        width: 26em;
+        height: 12em;
+      }
+
+      .tall {
+        width: 12em;
+        height: 25.5em; 
+      }
+
+    .sidebar-with-round {
+      border-radius: 0 10px 10px 0;
+      background-color: #fff;
+      padding: 1em;
+      margin-top: 1.5em;
+    }
+
+      #newsletter {
+        width: 25em;
+        height: 10em;
+        margin: 1.25em .25em 1.75em .25em;
+        background-color: #bbb;
+      }
+
+      .sidebar-teaser {
+        width: 25em;
+        height: 11em;
+        margin: .5em .25em 1.75em .5em;
+        background-color: #888;
+      }
+
+    #ads-2 {
+      padding: 4.75em 0 1.5em 1.4em;
+    }
+
+  #main {
+    width: 69%;
+    padding: 0 0 0 0;
+    background-color: #fff;
+  }
+
+    #menu-bar {
+      float: left;
+      background-color: #fff;
+      width: 21.5%;
+    }
+
+      #site-logo {
+        background-color: #888;        
+        width: 100%;
+        height: 4.75em;
+        margin-bottom: 4em;
+      }
+
+      .menu-section {
+        width: 100%;
+        background-color: #fff;
+        border-bottom: 1px solid black;
+        padding-bottom: 2em;
+      }
+
+        .menu-item {
+          background-color: #ccc;
+          width: 100%;
+          height: 2em;
+          border-bottom: 1px solid black
+        }
+
+        .menu-head {
+          background-color: #aaa;
+        }
+
+    #nav {
+      float:left;
+      height: 4.75em;
+      width: 78%;
+      background-color: #fff;
+    }
+
+      #nav-left {
+        float: left;
+        background-color: #ccc;
+        height: 100%;
+      }
+
+        .nav-l-section {
+          display: inline-block;
+          width: 4.6em;
+          height: 100%;
+          border-right: 1px solid black;
+        }
+
+      #nav-right {
+        float: right;
+        background-color: #fff;
+        height: 100%;
+      }
+
+        .nav-r-section {
+          display: inline-block;
+          position: relative;
+          top: 50%;
+          margin: .3em;
+          border-radius: 50%;
+          width: 1.25em;
+          height: 1.25em;
+          background-color: #ddd;
+        }
+
+        .nav-r-section:last-of-type {
+          margin-right: 0;
+        }
+
+    #article-container{
+      position: relative;
+      float: right;
+      width: 78%;
+      border-radius: 0 .75em .75em 0;
+      background-color: #fff;
+      padding: 0 0 1em 0;
+    }
+
+      .article {
+        width: 100%;
+        padding: 4em 2.5em 3.5em 3em;
+        background-color: #fff;
+        border-bottom: 5px solid gray;
+      }
+
+        .article-title {
+          background-color: #444;
+          width: 100%;
+          height: 4em;
+          margin-bottom: 1em;
+        }
+
+        .article-attribution {
+          background-color: #888;
+          width: 100%;
+          height: 2.25em;
+          padding-bottom: 1em;
+          border-bottom: 1px solid gray;
+        }
+
+        .article-tags {
+          background-color: #888;
+          width: 100%;
+          height: 2.25em;
+          margin-bottom: 3em;
+        }
+
+        .article-summary {
+          background-color: #aaa;
+          width: 100%;
+          height: 8em;
+          margin-bottom: 2.5em;
+        }
+
+        .article-picture {
+          background-color: #666;
+          width: 31em;
+          height: 25em;
+          margin-bottom: 2.5em;
+        }
+
+        .article-preview {
+          background-color: #ccc;
+          width: 100%;
+          height: 4em;
+          margin-bottom: 2.5em;
+        }
+
+        .article-link {
+          background-color: #888;
+          width: 6.75em;
+          height: 2.25em;
+          border-radius: .5em;
+        }
+
+      .main-ad-container {
+        width: 100%;
+        height: 15em;
+        padding-top: 5.25em;
+      }
+
+        .main-ad {
+          width: 30em;
+          height: 10em;
+          margin-left: auto;
+          margin-right: auto;
+          background-color: #666;
+        }
+
+      #page-nav {
+        background-color: #888;
+        width: 65%;
+        height: 3em;
+        margin: 1em 4em 8em 11.5em;
+      }
+
+      #back {
+        position: absolute;
+        bottom: 1em;
+        right: 1.5em;
+        background-color: #eee;
+        width: 6em;
+        height: 2em; 
+      }
+
+    #bottom-ads {
+      clear: both;
+      background-color: #fff;
+      padding: 4em 0 4em 3em;
+    }
+
+      .bottom-ad {
+        display: inline-block;
+        background-color: #aaa;
+        width: 18em;
+        height: 7em;
+      }
+
+    #footer {
+      background-color: #eee;
+      width: 18em;
+      height: 6em;
+      margin: 1em;
+    }
